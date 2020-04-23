@@ -1,0 +1,64 @@
+1.	Start					
+2.						
+3.	declare and initialize variable for inputing exam score					
+4.	declare and initialize variable exam score to finally convert it to integer					
+5.	declare and initialize variable for grade					
+6.	declare and initialize variable for input1					
+7.	declare and initialize variable for input2					
+8.	declare and initialize a vairable for control1 and control2 to be true first					
+9.						
+10.		WHILE (control1 is true)				
+11.						
+12.			prompt user to enter score			
+13.			scan input1 and covert it to integer and assign it to score			
+14.						
+15.			IF [score is less than zero or score is greater than 100]			
+16.				print input out of range		
+17.			ELSE			
+18.				IF [ score is greater or equal to 97 ]		
+19.					assign grade to be "A+"	
+20.				ELSE IF [ score is greater or equal to 94		
+21.					assign grade to be "A"	
+22.				ELSE IF [ score is greater or equal to 90		
+23.					assign grade to be "A-"	
+24.						
+25.				ELSE IF [ score is greater or equal to 87 ]		
+26.					assign grade to be "B+"	
+27.				ELSE IF [ score is greater or equal to 84		
+28.					assign grade to be "B"	
+29.				ELSE IF [ score is greater or equal to 80		
+30.					assign grade to be "B-"	
+31.						
+32.				ELSE IF [ score is greater or equal to 77 ]		
+33.					assign grade to be "C+"	
+34.				ELSE IF [ score is greater or equal to 74		
+35.					assign grade to be "C"	
+36.				ELSE IF [ score is greater or equal to 70		
+37.					assign grade to be "C-"	
+38.						
+39.				ELSE IF [ score is greater or equal to 60 ]		
+40.					assign grade to be "D"	
+41.				ELSE		
+42.					assign grade to be Score too low the student has to go back to school	
+43.					IF [score is greater than or equal to sixty]	
+44.						print Good job. Your grade is variable grade.
+45.					END IF	
+46.				END IF		
+47.						
+48.			WHILE (control2 is true)			
+49.				print do you want to enter another score(Y/N)?		
+50.				scan the user input2 here		
+51.				IF [if input is enter key or if input is equal to "y" or if input is equal to "Y"]		
+52.					control 2 is false	
+53.				ELSE IF [input is equal to "n" or "N"]		
+54.					control 1 is false	
+55.					control 2 is false	
+56.				ELSE		
+57.					print Wrong input entered 	
+58.					// this is by assuming that user suddenly hit someother case unintentionaly	
+59.					control 1 is true	
+60.					control 2 is true	
+61.				END IF		
+62.			END WHILE -2			
+63.		END WHILE-1				
+64.	close scanner					
